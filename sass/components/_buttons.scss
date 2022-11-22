@@ -1,0 +1,17 @@
+.button {
+    cursor: pointer;
+
+    border: none;
+
+    background-color: var(--color-hover);
+    color: var(--color-hero);
+
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        background-color: var(--color-hover-hero-btn);
+    }
+}
